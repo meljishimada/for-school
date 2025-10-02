@@ -12,6 +12,7 @@ class vecteur {
   public:
     vecteur() ;// constructeur
    size_t taille() const; // la taille du vecteur
+    void inserer( size_t p_index, int p_nouveau);
 
 
   private:
